@@ -34,7 +34,7 @@ Your work will be evaluated against the following criteria:
 
 # SOLUTION
 
-## Tech Stack
+## Environment and Tech Stack used to test this code. 
 
     - Core Technology:                    Java 12
     - Build and packgaging framework:     Maven 3.6.1
