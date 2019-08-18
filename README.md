@@ -1,5 +1,6 @@
-#Assignment
-BACKGROUND
+# TECH CHALLENGE - Union of series of Number ranges (Zip code use case)
+
+## Use Case; 
 Sometimes items cannot be shipped to certain zip codes, and the rules for these restrictions are stored as a series of ranges of 5 digit codes. For example if the ranges are:
 
 [94133,94133] [94200,94299] [94600,94699]
@@ -24,6 +25,7 @@ Then the output should be = [94133,94133] [94200,94299] [94600,94699]
 If the input = [94133,94133] [94200,94299] [94226,94399] 
 Then the output should be = [94133,94133] [94200,94399]
 
+
 Evaluation Guidelines:
 Your work will be evaluated against the following criteria:
 - Successful implementation
@@ -32,8 +34,13 @@ Your work will be evaluated against the following criteria:
 - Code quality and best practices
 
 
+# SOLUTION:
 
-#Considerations and Assumptions 
+## Tech Stack
+
+## Requirements and Assumptions
+
+## Considerations and Assumptions 
   - Algorithm is written and tested on below specification of java version. 
     java version "12" 2019-03-19
     Java(TM) SE Runtime Environment (build 12+33)
@@ -41,6 +48,6 @@ Your work will be evaluated against the following criteria:
   - Input Numbers are Integers only. 
   - 
 
-#Design Consideration
-#Time Complexity of the Algorithm
-#Space Complexity of the Algorithm
+## Design Consideration
+## Time Complexity of the Algorithm
+## Space Complexity of the Algorithm
