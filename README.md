@@ -72,18 +72,21 @@ Test results will output the Range Intervals before the merge and after the afte
 
 - Scenario 1: Test with Negative numbers. 
 
-Output: 
 Ranges before merge: [(-5,10), (-19,-17), (2,5), (-3,2)]
+
 Ranges after merge:[(-19,-17), (-5,10)]
+
 
 - Scenario 2: Test with inputs Range Intervals not overlapping with each other.  
 
 Ranges before merge: [(94133,94133), (94200,94299), (94600,94699)]
+
 Ranges after merge:[(94133,94133), (94200,94299), (94600,94699)]
 
 - Scenario 3: Test with inputs Range Intervals actually overlapping  each other causing algorithm to reduce the ranges
 
 Ranges before merge: [(94133,94133), (94200,94299), (94226,94399)]
+
 Ranges after merge:[(94133,94133), (94200,94399)]
 
 
