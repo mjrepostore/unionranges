@@ -1,6 +1,6 @@
-# TECH CHALLENGE - Union of series of Number ranges (Zip code use case)
+# TECH CHALLENGE - Union of series of Number ranges
 
-## Use Case; 
+## Use Case:
 Sometimes items cannot be shipped to certain zip codes, and the rules for these restrictions are stored as a series of ranges of 5 digit codes. For example if the ranges are:
 
 [94133,94133] [94200,94299] [94600,94699]
@@ -34,20 +34,32 @@ Your work will be evaluated against the following criteria:
 - Code quality and best practices
 
 
-# SOLUTION:
+# SOLUTION
 
 ## Tech Stack
 
+- Core Technology:                    Java 12
+- Build and packgaging framework:     Maven 3.6.1
+- Test Framework:                     Junit 4.12
+- Source code Repository              Git 2.20.1
+- OS                                  OS X 10.14.3
+
 ## Requirements and Assumptions
 
-## Considerations and Assumptions 
-  - Algorithm is written and tested on below specification of java version. 
-    java version "12" 2019-03-19
-    Java(TM) SE Runtime Environment (build 12+33)
-    Java HotSpot(TM) 64-Bit Server VM (build 12+33, mixed mode, sharing)
-  - Input Numbers are Integers only. 
-  - 
+- Ensure that Git,Maven and Java are setup in PATH variable. 
 
-## Design Consideration
+
+## Testing steps
+    git clone https://github.com/mjrepostore/unionranges.git. - This will create a folder unionranges containing the project code
+    cd unionranges - Enter the project directory
+    source setenv.sh - This will set Maven(mvn command) in the path. This is optional step if you have Maven in the path already. 
+    mvn test - This will compile and executed all the tests scenarios and output the results.
+
+## Design Considerations 
+  - Algorithm is generic design to consider input as integers and will work with all the possible values within java Integer range including the negative numbers.  Zip codes are just one of the business use case which can leverage this algorithm. 
+
+  
 ## Time Complexity of the Algorithm
+
+
 ## Space Complexity of the Algorithm
