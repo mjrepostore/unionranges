@@ -46,11 +46,11 @@ Your work will be evaluated against the following criteria:
 
 - Ensure that Git,Maven and Java are setup in PATH variable. 
 
-## Design Considerations 
+## Design Considerations
 
 - Algorithm is generic design to consider input as integers and will work with all the possible values within java Integer range including the negative numbers.  Zip codes are just one of the business use case which can leverage this algorithm.
 
-## Code structure: 
+## Code structure
 
 - src/main/java/com/ws/unionranges/model/RangeInterval.java is a model Java class to represent a Number Range. 
 
@@ -70,7 +70,7 @@ Your work will be evaluated against the following criteria:
     
     mvn test - This will compile and executed all the tests scenarios and output the results.
     
-## Test scenarios; 
+## Test scenarios
 
 Test results will output the Range Intervals before the merge and after the after merge to see how the algorithm executes
 
