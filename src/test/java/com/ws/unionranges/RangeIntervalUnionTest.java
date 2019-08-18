@@ -10,10 +10,16 @@ import java.util.Collections;
 import java.util.ArrayList;
 import com.ws.unionranges.UnionRangeIntervals;
 
-
+/** Junit Test class for the testing the various union algorithm.  
+ * @author Mahesh Jain
+ * @version 1.0
+ * @since 1.0
+*/
 
 public class RangeIntervalUnionTest{	
 
+
+	//Test union with negative numbers 
 	@Test
 	public void testUnionRangeIntervalPositiveNegative() {
 		
@@ -43,7 +49,7 @@ public class RangeIntervalUnionTest{
 			ranges = null;		
 	}
 
-
+	//Test unions with inputs Range Intervals not overlapping with each other.
 	@Test
 	public void testUnionRangeInterval2() {
 		
@@ -69,6 +75,7 @@ public class RangeIntervalUnionTest{
 			ranges = null;		
 	}
 	
+	//Test unions with inputs Range Intervals actually overlapping each other causing algorithm to reduce the ranges
 
 	@Test
 	public void testUnionRangeInterval3() {

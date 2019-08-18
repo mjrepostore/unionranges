@@ -1,6 +1,8 @@
 
 package com.ws.unionranges.modeltests;
 
+
+
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
@@ -10,9 +12,16 @@ import java.util.Collections;
 import java.util.ArrayList;
 
 
+/** Junit Test class for the model class RangeInterval. 
+ * @author Mahesh Jain
+ * @version 1.0
+ * @since 1.0
+*/
 
 public class RangeIntervalModelTest{
 
+
+	//Tests the model with Negative numbers. 
 	
 	@Test
 	public void testBoundsforNegativeNumber() {
@@ -22,6 +31,9 @@ public class RangeIntervalModelTest{
 			rangeInterval1 = null;
 		
 	}
+
+	//Tests the model with switching bound in the pair. 
+
 	@Test
 	public void testBoundinPair() {
 		
@@ -34,6 +46,9 @@ public class RangeIntervalModelTest{
 			rangeInterval1 = null;
 			rangeInterval2 = null;
 	}
+
+
+	//Tests the Sorting logic based on the custom comparison logic implemented in the Model RangeInterval class
 
 	@Test
 	public void testSortRanges() {
@@ -60,6 +75,7 @@ public class RangeIntervalModelTest{
 			ranges = null;		
 	}
 
+	//Tests the Sorting logic based on the custom comparison logic implemented in the Model RangeInterval class
 	@Test
 	public void testSortRanges2() {
 		
@@ -86,7 +102,7 @@ public class RangeIntervalModelTest{
 	}
 
 	
-
+	//Tests the Sorting logic based on the custom comparison logic implemented in the Model RangeInterval class
 	@Test
 	public void testSortRanges3() {
 		
@@ -116,4 +132,4 @@ public class RangeIntervalModelTest{
 	}
 	
 		
-}
+}	
